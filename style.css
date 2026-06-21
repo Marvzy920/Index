@@ -1,0 +1,183 @@
+body {
+    font-family: 15px/1.5 Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: floralwhite;
+}
+/* Global */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background-color: rgb(225, 85, 3);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: antiquewhite;
+}
+
+.dark {
+    padding: 15px;
+    background: rgb(1, 85, 230);
+    color: floralwhite;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    background: navy;
+    color: floralwhite;
+    padding-top: 70px;
+    min-height: 20px;
+    border-bottom: rgb(225, 85, 3) 3px solid;
+}
+
+header a {
+    color: floralwhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    padding: 0 20px 0 20px;
+    display: inline;
+}
+
+header .branding{
+    float: left;
+}
+
+header .branding h1 {
+    margin-top: 10px;
+}
+
+header nav{
+    float: right;
+    padding: 0;
+    margin-top: 20px;
+}
+
+header .highlight, header .current a {
+    color: rgb(225, 85, 3);
+    font-weight: bold;
+}
+
+#active:active {
+    color: yellow;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+/* Show Case */
+#showcase {
+    min-height: 400px;
+    background: url(hotel.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: yellow;
+    outline: rgb(225, 85, 3) solid 5px;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+    background-color: rgba(0, 0, 128, 0.5);
+}
+
+/*News Letter*/
+#newsletter {
+    padding: 15px;
+    color: floralwhite;
+    background: navy;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+
+#newsletter input[type="Email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+/* Side Bar */
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+/* Main-col */
+article#main-col {
+    float: left;
+    width: 65%;
+}
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: azure solid 1px;
+    margin-bottom: 5px;
+    background-color: navy;
+    color: aliceblue;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    background: rgb(225, 85, 3);
+    text-align: center;
+}
